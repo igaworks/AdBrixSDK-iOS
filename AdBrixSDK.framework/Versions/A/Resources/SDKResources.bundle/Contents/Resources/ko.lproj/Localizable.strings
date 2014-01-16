@@ -42,7 +42,6 @@
 /* Title used for bridgr view of back button */
 "back" = "뒤로";
 
+
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
-
-"install" = "설치";
