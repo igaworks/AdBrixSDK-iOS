@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/AdBrixSDK/' }
 
   s.frameworks = 'UIKit', 'CoreGraphics', 'SystemConfiguration', 'CoreData', 'QuartzCore', 'CoreTelephony', 'AdSupport', 'Security'
-  s.ios.dependency 'AFNetworking'
+  s.ios.dependency 'AFNetworking', '~> 1.3'
 end
