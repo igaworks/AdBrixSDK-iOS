@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author       = { "wonje,song" => "wonje@igaworks.com" }
   s.source       = { :git => "https://github.com/igaworks/AdBrixSDK-iOS.git", :branch => 'master' }
   s.source_files = '*.h'
-  s.preserve_paths = 'AdBrixSDK.a'
+  s.preserve_paths = 'libAdBrixSDK.a'
   s.library = 'AdBrixSDK'
   
   s.resources = "SDKResources.bundle"
