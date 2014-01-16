@@ -1,0 +1,42 @@
+/*
+ Localizable.strings
+ AdPOPcornSDKRevision
+ 
+ Created by wonje,song on 13. 2. 5..
+ Copyright (c) 2013년 wonje,song. All rights reserved.
+ */
+
+/* Title used for offer wall top bar */
+"offerWallTopBarTitle" = "Lista de eventos";
+
+/* Title used for offer wall table cell */
+"max" = "Max";
+
+/* Title used for alert view title */
+"alertViewTitle" = "adPOPcorn";
+
+/* Message used for alert view message for general error */
+"alertViewGeneralErrorMessage" = "Solicitud del anuncio no es suave. \nPregunte de nuevo en unos minutos.";
+
+/* Message used for alert view message for no campaign error */
+"alertViewNoCampaignErrorMessage" = "No hay ninguna campaña disponible.";
+
+/* Message used for alert view message for already participated campaign error */
+"alertViewAlreadyParticipatedCampaignErrorMessage" = "Already Participated this Campaign.";
+
+/* Message used for alert view message for mediakeys were incorrect error */
+"alertViewMediaKeyIncorrectErrorMessage" = "Participado ya esta campaña.";
+
+/* Title used for alert view confirm button */
+"confirm" = "Confirmar";
+
+/* Title used for landing view close button */
+"close" = "Fin";
+
+/* Message used for bridge view of popup view */
+"moving" = " movimiento.";
+
+/* Title used for bridgr view of back button */
+"back" = "Espalda";
+
+"install" = "instalar";
