@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, '4.3'
   s.author       = { "wonje,song" => "wonje@igaworks.com" }
-  s.source       = { :git => "https://github.com/igaworks/AdBrixSDK-iOS.git", :tag => ‘3.0.8’}
+  s.source       = { :git => "https://github.com/igaworks/AdBrixSDK-iOS.git", :tag => "3.0.8" }
   s.resources = "SDKResources.bundle"
   s.ios.vendored_frameworks = 'AdBrixSDK.framework'
-  s.frameworks = 'UIKit', 'CoreGraphics', 'SystemConfiguration', 'CoreData', 'QuartzCore', 'CoreTelephony', 'AdSupport', 'Security'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'SystemConfiguration', 'CoreData', 'QuartzCore', 'CoreTelephony', 'AdSupport'
 end
