@@ -165,7 +165,7 @@ typedef enum _adBrixLogLevel
  
  @param activityName              activity name.
  */
-+ (void)viral:(NSString *)activityName;
++ (void)viral:(NSString *)activityName __deprecated;
 
 
 /*!
@@ -175,7 +175,7 @@ typedef enum _adBrixLogLevel
  @param activityName              activity name.
  @param param                     parameter.
  */
-+ (void)viral:(NSString *)activityName param:(NSString *)param;
++ (void)viral:(NSString *)activityName param:(NSString *)param __deprecated;
 
 
 /*!
@@ -221,7 +221,7 @@ typedef enum _adBrixLogLevel
  @param errorName                 error name.
  @param detail                    detail.
  */
-+ (void)error:(NSString *)message exception:(NSException *)exception;
++ (void)error:(NSString *)message exception:(NSException *)exception __deprecated;
 
 
 /*!
@@ -230,7 +230,7 @@ typedef enum _adBrixLogLevel
  
  @param activityName              activity name.
  */
-+ (void)custom:(NSString *)activityName;
++ (void)custom:(NSString *)activityName __deprecated;
 
 /*!
  @abstract
@@ -239,7 +239,7 @@ typedef enum _adBrixLogLevel
  @param activityName              activity name.
  @param param                     parameter.
  */
-+ (void)custom:(NSString *)activityName param:(NSString *)param;
++ (void)custom:(NSString *)activityName param:(NSString *)param __deprecated;
 
 /*!
  @abstract
@@ -312,5 +312,16 @@ typedef enum _adBrixLogLevel
  @param LogLevel            log level
  */
 + (void)setLogLevel:(AdBrixLogLevel)logLevel;
+
+/*!
+ @abstract
+ App.이 최초 실행될때 시작되었음을 서버로 전송하기 위해 호출한다.
+ 한번만 호출한다.
+ 
+ @discussion
+ AppDelegate의 - application:didFinishLaunchingWithOptions: 메소드에서 AdBrixManager - traceWithAppKey:andHashKey: 메소드를 호출하는 경우에는 start 메소드를 호출하지 않는다.
+ Unity plugin의 경우 traceWithAppKey:andHashKey: 메소드 호출 후에, start 메소드를 호출한다.
+ */
++ (void)start;
 
 @end
