@@ -107,6 +107,10 @@ typedef enum _adBrixLogLevel
     NSArray *_adBrixUserInfoArray;
 }
 
+@property (nonatomic, copy) NSString *appleAdvertisingIdentifier;
+@property (nonatomic, unsafe_unretained) BOOL isAppleAdvertisingTrackingEnabled;
+
+
 /*!
  @abstract
  초기화. init한다.
@@ -323,5 +327,17 @@ typedef enum _adBrixLogLevel
  Unity plugin의 경우 traceWithAppKey:andHashKey: 메소드 호출 후에, start 메소드를 호출한다.
  */
 + (void)start;
+
+/*!
+ @abstract
+ Apple AdvertisingIdentifier를 전송한다.
+ 
+ @param appleAdvertisingIdentifier              Apple AdvertisingIdentifier.
+ 
+ @discussion
+ 광고 목적이 아닌 경우, Apple AdvertisingIdentifier를 사용하면, app reject 사유가 되기 때문에, iAd(AdSupport.framework)를 사용하지 않는다면 값을 전송하지 않는다.
+ AdBrix에서는 전달받은 Apple AdvertisingIdentifier 값이 없는경우, identifierForVendor 값을 identifier로 사용한다.
+ */
++ (void)setAppleAdvertisingIdentifier:(NSString *)appleAdvertisingIdentifier isAppleAdvertisingTrackingEnabled:(BOOL)isAppleAdvertisingTrackingEnabled;
 
 @end
