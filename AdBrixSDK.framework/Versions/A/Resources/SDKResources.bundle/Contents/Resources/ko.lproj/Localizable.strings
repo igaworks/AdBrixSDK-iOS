@@ -1,0 +1,14 @@
+/*
+ Localizable.strings
+ AdPOPcornSDKRevision
+ 
+ Created by wonje,song on 13. 2. 5..
+ Copyright (c) 2013년 wonje,song. All rights reserved.
+ */
+
+
+// adbrix
+"alertViewTitleForAdBrix" = "AdBrix";
+"install" = "설치";
+"alerViewCantParticipateEventMessage" = "참여할 수 없는 이벤트입니다.";
+"alerViewCompletedParticipateEventMessage" = "참여 완료된 이벤트입니다.";

@@ -17,43 +17,6 @@
 @class CompleteResult;
 
 
-/*!
- @typedef ResultCode enum
- 
- @abstract result code에 대행 정의.
- 
- @discussion
- */
-typedef enum _adBrixResultCode
-{
-    /*! reward success  */
-    AdBrixServiceResultSuccess = 1,
-    /*! campaign not exist  */
-    AdBrixServiceResultCampaignNotExist = 1000,
-    /*! participation info not exist  */
-    AdBrixServiceResultParticipationInfoNotExist = 2100,
-    /*! app scheme not exist  */
-    AdBrixServiceResultAppSchemeNotExist = 3000,
-    /*! invalid campaign  */
-    AdBrixServiceResultInvalidCampaign = 4200,
-    /*! authkey valid time over  */
-    AdBrixServiceResultAuthKeyValidTimeOver = 4300,
-    /*! campaign no not match  */
-    AdBrixServiceResultCampaignNoNotMatch = 4400,
-    /*! invalid sign value  */
-    AdBrixServiceResultInvalidSignValue = 4600,
-    /*! error  */
-    AdBrixServiceResultError = 4700,
-    /*! exception  */
-    AdBrixServiceResultException = 4900,
-    /*! invalid parameter  */
-    AdBrixServiceResultInvalidParameter = 5300,
-    /*! invalid participation  */
-    AdBrixServiceResultInvalidParticipation = 5400,
-    /*! already participated  */
-    AdBrixServiceResultAlreadyParticipated = 5500,
-} AdBrixResultCode;
-
 typedef enum _gender
 {
     AdBrixManagerGenderMALE = 2,
@@ -80,31 +43,7 @@ typedef enum _adBrixLogLevel
  */
 @interface AdBrixManager : NSObject
 {
-    @private
-        NSString *_appKey;
-        NSString *_hashKey;
     
-        HandleCoreData *_handleCoreData;
-        TrackingResult *_trackingResult;
-        ConversionResult *_conversionResult;
-        SendDemoResult *_sendDemoResult;
-    
-        GetScheduleResult *_getScheduleResult;
-    
-        CompleteResult *_completeResult;
-    
-        NSArray *_fetchActivityForTrackingArray;
-        NSArray *_fetchDemoArray;
-    
-        NSDate *_startSessoinDate;
-    
-        __block UIBackgroundTaskIdentifier background_task;
-    
-        NSDateFormatter *_dateFormatter;
-    
-        NSString *_identifier;
-    
-    NSArray *_adBrixUserInfoArray;
 }
 
 @property (nonatomic, copy) NSString *appleAdvertisingIdentifier;
@@ -293,7 +232,16 @@ typedef enum _adBrixLogLevel
  
  @param activityName              activity name.
  */
-+ (void)showAD:(NSString *)activityName parentView:(UIView *)parentView;
++ (void)showAD:(NSString *)activityName parentView:(UIView *)parentView __deprecated;
+
+/*!
+ @abstract
+ 광고를 노출하고자 할때 호출한다.
+ 
+ @param activityName              activity name.
+ @param parentViewController      광고를 노출시킬 view controller
+ */
++ (void)showAD:(NSString *)activityName parentViewController:(UIViewController *)parentViewController;
 
 /*!
  @abstract
