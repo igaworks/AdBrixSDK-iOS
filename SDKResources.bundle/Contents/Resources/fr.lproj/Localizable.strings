@@ -6,37 +6,8 @@
  Copyright (c) 2013년 wonje,song. All rights reserved.
  */
 
-/* Title used for offer wall top bar */
-"offerWallTopBarTitle" = "Liste des événements";
-
-/* Title used for offer wall table cell */
-"max" = "Max";
-
-/* Title used for alert view title */
-"alertViewTitle" = "adPOPcorn";
-
-/* Message used for alert view message for general error */
-"alertViewGeneralErrorMessage" = "Demande d'annonce n'est pas lisse. \nDemandez à nouveau dans quelques minutes.";
-
-/* Message used for alert view message for no campaign error */
-"alertViewNoCampaignErrorMessage" = "Il n'ya pas de campagne disponibles.";
-
-/* Message used for alert view message for already participated campaign error */
-"alertViewAlreadyParticipatedCampaignErrorMessage" = "Déjà participé cette campagne.";
-
-/* Message used for alert view message for mediakeys were incorrect error */
-"alertViewMediaKeyIncorrectErrorMessage" = "Les touches multimédia étaient incorrects.";
-
-/* Title used for alert view confirm button */
-"confirm" = "Confirmer";
-
-/* Title used for landing view close button */
-"close" = "Fin";
-
-/* Message used for bridge view of popup view */
-"moving" = " mouvement.";
-
-/* Title used for bridgr view of back button */
-"back" = "Arrière";
-
+// adbrix
+"alertViewTitleForAdBrix" = "AdBrix";
 "install" = "installer";
+"alerViewCantParticipateEventMessage" = "Vous ne pouvez pas participer à des événements.";
+"alerViewCompletedParticipateEventMessage" = "Participation à l'événement est terminé.";
