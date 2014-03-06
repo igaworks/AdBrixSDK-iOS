@@ -6,37 +6,8 @@
  Copyright (c) 2013년 wonje,song. All rights reserved.
  */
 
-/* Title used for offer wall top bar */
-"offerWallTopBarTitle" = "händelse lista";
-
-/* Title used for offer wall table cell */
-"max" = "Max";
-
-/* Title used for alert view title */
-"alertViewTitle" = "adPOPcorn";
-
-/* Message used for alert view message for general error */
-"alertViewGeneralErrorMessage" = "Ad begäran inte jämn. \nFråga igen om några minuter.";
-
-/* Message used for alert view message for no campaign error */
-"alertViewNoCampaignErrorMessage" = "Det finns ingen tillgänglig kampanj.";
-
-/* Message used for alert view message for already participated campaign error */
-"alertViewAlreadyParticipatedCampaignErrorMessage" = "Redan deltagit denna kampanj.";
-
-/* Message used for alert view message for mediakeys were incorrect error */
-"alertViewMediaKeyIncorrectErrorMessage" = "Medieknapparna var felaktiga.";
-
-/* Title used for alert view confirm button */
-"confirm" = "Bekräfta";
-
-/* Title used for landing view close button */
-"close" = "Avslutning";
-
-/* Message used for bridge view of popup view */
-"moving" = " rörelse.";
-
-/* Title used for bridgr view of back button */
-"back" = "Tillbaka";
-
+// adbrix
+"alertViewTitleForAdBrix" = "AdBrix";
 "install" = "installera";
+"alerViewCantParticipateEventMessage" = "Kan inte delta i evenemang.";
+"alerViewCompletedParticipateEventMessage" = "Deltagande i händelsen är avslutad.";

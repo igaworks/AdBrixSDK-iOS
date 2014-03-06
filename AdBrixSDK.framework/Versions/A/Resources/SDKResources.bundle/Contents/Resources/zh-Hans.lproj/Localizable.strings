@@ -8,37 +8,8 @@
 
 /* Chinese zh-hans */
 
-/* Title used for offer wall top bar */
-"offerWallTopBarTitle" = "事件列表";
-
-/* Title used for offer wall table cell */
-"max" = "最大的";
-
-/* Title used for alert view title */
-"alertViewTitle" = "广告爆米花";
-
-/* Message used for alert view message for general error */
-"alertViewGeneralErrorMessage" = "广告请求并不顺利。\n在几分钟后，再次询问。";
-
-/* Message used for alert view message for no campaign error */
-"alertViewNoCampaignErrorMessage" = "没有可用的活动。";
-
-/* Message used for alert view message for already participated campaign error */
-"alertViewAlreadyParticipatedCampaignErrorMessage" = "已经参加这项运动。";
-
-/* Message used for alert view message for mediakeys were incorrect error */
-"alertViewMediaKeyIncorrectErrorMessage" = "他的媒体键是不正确的。";
-
-/* Title used for alert view confirm button */
-"confirm" = "确认";
-
-/* Title used for landing view close button */
-"close" = "关闭";
-
-/* Message used for bridge view of popup view */
-"moving" = " 移動。";
-
-/* Title used for bridgr view of back button */
-"back" = "背面";
-
+// adbrix
+"alertViewTitleForAdBrix" = "AdBrix";
 "install" = "安装";
+"alerViewCantParticipateEventMessage" = "不能参加活动。";
+"alerViewCompletedParticipateEventMessage" = "参与事件完成。";
