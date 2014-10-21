@@ -8,6 +8,3 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
-"install" = "installera";
-"alerViewCantParticipateEventMessage" = "Kan inte delta i evenemang.";
-"alerViewCompletedParticipateEventMessage" = "Deltagande i händelsen är avslutad.";

@@ -10,6 +10,3 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
-"install" = "安装";
-"alerViewCantParticipateEventMessage" = "不能参加活动。";
-"alerViewCompletedParticipateEventMessage" = "参与事件完成。";
