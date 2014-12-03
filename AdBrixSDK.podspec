@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdBrixSDK"
-  s.version      = "3.2.1"
+  s.version      = "3.2.2"
   s.summary      = "AdBrix SDK"
   s.homepage     = "https://github.com/igaworks/AdBrixSDK-iOS"
 
