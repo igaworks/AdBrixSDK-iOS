@@ -8,3 +8,14 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
+
+"confirm" = "Confirm";
+
+"close" = "Close";
+
+"cancel" = "Cancel";
+
+"enterYourCouponCodeAlertTitle" = "Please enter your coupon code.";
+"enterYourCouponCodeAlertMessage" = "After you enter the coupon code below, press the OK button.";
+
+"couponCode" = "Coupon codes";

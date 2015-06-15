@@ -8,3 +8,14 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
+
+"confirm" = "確認";
+
+"cancel" = "キャンセル";
+
+"close" = "閉じる";
+
+"enterYourCouponCodeAlertTitle" = "クーポンコードを入力して下さい。";
+"enterYourCouponCodeAlertMessage" = "以下のクーポンコードを入力した後、確認ボタンをタップして下さい。";
+
+"couponCode" = "クーポン番号";
