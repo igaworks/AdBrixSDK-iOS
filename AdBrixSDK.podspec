@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
 
-  s.platform = :ios, '5.1.1'
+  s.platform = :ios, '6.0'
   s.author       = { "wonje,song" => "wonje@igaworks.com" }
   s.source       = { :git => "https://github.com/igaworks/AdBrixSDK-iOS.git", :tag => "#{s.version}" }
   s.resources = "SDKResources.bundle"
