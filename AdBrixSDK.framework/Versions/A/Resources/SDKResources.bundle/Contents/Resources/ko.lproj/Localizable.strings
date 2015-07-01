@@ -9,3 +9,17 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
+
+/* Title used for alert view confirm button */
+"confirm" = "확인";
+
+"cancel" = "취소";
+
+/* Title used for landing view close button */
+"close" = "닫기";
+
+
+"enterYourCouponCodeAlertTitle" = "쿠폰 번호를 입력해주세요.";
+"enterYourCouponCodeAlertMessage" = "아래에 쿠폰 번호를 입력하신 후 확인 버튼을 눌러주세요.";
+
+"couponCode" = "쿠폰 번호";

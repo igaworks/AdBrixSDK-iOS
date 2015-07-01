@@ -10,3 +10,14 @@
 
 // adbrix
 "alertViewTitleForAdBrix" = "AdBrix";
+
+"confirm" = "确认";
+
+"cancel" = "取消";
+
+"close" = "关闭";
+
+"enterYourCouponCodeAlertTitle" = "请输入优惠券代码。";
+"enterYourCouponCodeAlertMessage" = "请输入优惠券代码后，点击确认按钮。";
+
+"couponCode" = "优惠券代码";

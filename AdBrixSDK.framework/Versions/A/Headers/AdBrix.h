@@ -36,6 +36,7 @@ typedef NS_ENUM(NSInteger, AdBrixCustomCohortType)
 
 @property (nonatomic, copy) NSString *appKey;
 @property (nonatomic, copy) NSString *hashKey;
+@property (nonatomic, copy) NSString *userId;
 
 /*!
  @abstract
